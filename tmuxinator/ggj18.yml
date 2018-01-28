@@ -1,0 +1,17 @@
+# ~/.tmuxinator/ggj18.yml
+
+name: ggj18
+root: ~/
+
+windows:
+  - ember:
+      root: ~/projects/ggj18
+      layout: 8869,270x73,0,0{80x73,0,0[80x36,0,0,0,80x36,0,37,2],189x73,81,0,1}
+      panes:
+        - build:
+          - #bash
+        - source:
+          - cd source
+        - vim:
+          - cd source
+          - nvim
